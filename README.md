@@ -1,6 +1,6 @@
 # Notepad
 
-A job-ready Notepad-style text editor built with Python and Tkinter.
+Notepad-style text editor built with Python and Tkinter.
 
 ## Features
 - New / Open / Save / Save As
@@ -14,13 +14,13 @@ A job-ready Notepad-style text editor built with Python and Tkinter.
 
 ## Run
 ```bash
-python job_ready_notepad.py
+python NOTEPAD.py
 ```
 
 ## Build Windows executable
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --windowed job_ready_notepad.py --name JobReadyNotepad
+pyinstaller --onefile --windowed NOTEPAD.py --name NOTEPAD
 ```
 
 ## License
