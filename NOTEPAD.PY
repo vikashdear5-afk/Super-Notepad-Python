@@ -1,6 +1,6 @@
 """
-job_ready_notepad.py
-Job-ready Notepad application using tkinter.
+notepad.py
+Notepad application using tkinter.
 
 Features:
 - New / Open / Save / Save As
@@ -18,7 +18,7 @@ Features:
 Dependencies: only Python standard library (tkinter)
 Tested: Python 3.8+
 
-Author: Generated for Vikash (example)
+Author: Generated for Vikash
 """
 
 import tkinter as tk
@@ -30,7 +30,7 @@ import threading
 from pathlib import Path
 
 # --------- Constants and paths ----------
-APP_NAME = "JobReady Notepad"
+APP_NAME = "Notepad"
 CONFIG_DIR = Path.home() / ".jobready_notepad"
 CONFIG_DIR.mkdir(exist_ok=True)
 RECENT_FILE = CONFIG_DIR / "recent.json"
